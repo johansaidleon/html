@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: rgb(71, 98, 134);
+    background-color: rgb(243, 147, 176);
     background-repeat: repeat;
 }
 
@@ -9,14 +9,71 @@ h1{
     font-family: "Courgette", cursive;
     color: rgba(255, 255, 255, 0.842);
     font-weight: 900;
+    font-size: 300%;    
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h2{
+    color: #ffffff;
+    font-weight: 900;
     font-size: 300%;
     text-align: center;
+   
 }
 
-body {
+ul{
+    color: rgb(255, 253, 253);
+    font-weight: 900;
+    font-size: 100%;
+    list-style-image: url(../img/flor\ de\ sakura.png);
+    list-style-position: inside;
+   
+}
+th{
+    color: rgb(255, 253, 253);
+    font-weight: 900;
+    font-size: 100%;
+   text-align: center;
+   background-color: rgb(183, 0, 255);
+   height: 40px;
+   border-width: 4px;
+   border-style: double;
+   border-color: #000;
+   
+}
+td{
+    border-width: 4px;
+    border-style: double;
+    border-color: #000;
+
+}
+
+table{
+    width: 700px;
+    border: 4px outset #000;
+    border-collapse: collapse;
+}
+a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 250%;  
+}
+
+a:link{
+    color: rgb(255, 0, 0);
+}
+
+a:visited{
+    color:rgb(255, 0, 0);
+}
+
+a:hover{
+    color: rgb(200, 255, 0);
+}
+/*body {
     background-image: url(../img/sakura.jpg);
-}
-
+}*/
 p{
     font-family: "Montserrat", sans-serif;
     color: rgba(255, 255, 255, 0.842);
@@ -25,3 +82,8 @@ p{
     text-align: center;
 
 } 
+
+
+
+/*vamos a emprezar a combinar estilos*/
+
