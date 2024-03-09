@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: rgb(243, 147, 176);
+    background-color: rgb(196, 144, 159);
     background-repeat: repeat;
 }
 
@@ -83,7 +83,79 @@ p{
 
 } 
 
+.morado {
+    color: #7700ff;
+}
+
+.gri {
+    color: #c7c7c7;
+}
+
+#moraleja{
+    color: rgb(151, 81, 216);
+    text-align: center  ;
+    font-size: 16px;
+    font-family: "Courgette", cursive;
+}
+
+.flor{
+    text-decoration: underline;
+    color: rgb(157, 5, 177);
+    font-style: italic;
+}
+
+.eso{
+    width: 40%;
+    background-color: rgb(148, 11, 107);
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border: 10px double pink;
+}
 
 
+.autor{
+    width: 800px;
+    background-color: rgb(3, 170, 114);
+    margin: 50px auto;
+    border: 10px double rgb(0, 0, 0);
+    padding: 30px 30px 40px 30px;
+    color: white;
+}
+
+.autor img{
+float: left;
+width: 140px;
+;
+}
+
+.eso h1{
+    color: rgb(112, 112, 112);
+    text-align: center;
+}
 /*vamos a emprezar a combinar estilos*/
+
+.caja1{
+    padding: 10px;
+    width: 70%;
+    height: 300px;
+    background: linear-gradient( to bottom left, #e5ff00, #30682b);
+    box-shadow: 0px 0px 50px #000000;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.caja1 h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px #000;
+}
+.caja1 img{
+width: 140px;
+float: left;
+border-radius: 50%;
+border: 10px double #000;   
+
+}
+
 
